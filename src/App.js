@@ -9,6 +9,11 @@ function App() {
     <section className="App">
       <div className="overlay"></div>
       <video src={VideoBg} autoPlay loop muted></video>
+
+      <div className="page__content">
+        <h1>Lainching Soon</h1>
+        <h3>Leave your email and we'll let you know</h3>
+      </div>
     </section>
   );
 }

@@ -2,11 +2,19 @@
   display: flex;
   width: 100vw;
   height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  color: white;
 }
 
 .App video {
   width: 100%;
-  height: 100%;object-fit: cover;
+  height: 100%;
+  object-fit: cover;
 }
 
 .overlay{
@@ -14,4 +22,18 @@
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+.page__content{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.App h1{
+  font-size:  2rem;
+  color: white;
+  margin-block-end: 1rem;
 }
