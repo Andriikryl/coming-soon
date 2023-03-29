@@ -13,6 +13,12 @@ function App() {
       <div className="page__content">
         <h1>Lainching Soon</h1>
         <h3>Leave your email and we'll let you know</h3>
+        <FlipClockCountdown
+          to={new Date().getTime() + 204 * 3600 * 1000 + 5000}
+          className="flip-clock"
+          labels={["DAYS", "HOURS", "MINUTES", "SECONDS"]}
+          duration={0.5}
+        />
       </div>
     </section>
   );
